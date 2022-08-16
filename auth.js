@@ -7,7 +7,7 @@ var btn = document.createElement('button')
 btn.className = 'romoney-auth-btn'
 
 } else {
-var text = document.createTextNode(message.join(null))
+var text = document.createTextNode(message)
+var div = document.createElement("div")
 
- }
-
+}
